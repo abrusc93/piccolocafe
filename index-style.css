@@ -1,0 +1,85 @@
+body {
+    margin: 0pt;
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+}
+
+nav li{
+    padding-inline: 2vw;
+}
+
+section{
+    padding-top: 100px;
+}
+
+#home h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.home-background{
+    background-image: url(Images/home-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 90vh;
+}
+
+.carousel-img{
+    width: 75vw;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-header{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+.menu-background, .events-background{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+}
+
+#menu h1{
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+.blur{
+    background: radial-gradient(black, transparent);
+    background-position: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+#contact{
+    height: 25vh;
+}
+
+footer{
+    margin-bottom: 50pt;
+}
+
+/* Mobile View - When screen width is less than 768px */
+@media only screen and (max-width: 768px) {
+
+    #about {
+        flex-direction: column;
+        margin-block: auto;
+    }
+
+}
