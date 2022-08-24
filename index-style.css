@@ -77,8 +77,16 @@ footer{
 /* Mobile View - When screen width is less than 768px */
 @media only screen and (max-width: 768px) {
 
+    .home-background{
+        height: 60vh;
+    }
+
+    .carousel-img{
+        height: 50vh;
+    }
+
     #about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-block: auto;
     }
 
