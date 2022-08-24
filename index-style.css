@@ -13,10 +13,6 @@ section{
     padding-top: 100px;
 }
 
-#home h1{
-    font-family: 'Dancing Script', cursive;
-}
-
 .home-background{
     background-image: url(Images/home-background.jpg);
     background-position: center;
@@ -35,11 +31,27 @@ section{
 }
 
 .carousel-header{
+    font-family: 'Dancing Script', cursive;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
     background-position: center;
     width: 100%;
     height: fit-content;
     text-shadow: 2px 2px 5px black;
+}
+
+.grubhub-carousel-image{
+    background-image: url(Images/grubhub-logo.png);
+    background-color: rgb(246,52,64);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 75vw;
+    height: 75vh;
+}
+
+.grubhub-carousel-image h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, p{
@@ -81,7 +93,7 @@ footer{
         height: 60vh;
     }
 
-    .carousel-img{
+    .carousel-img, .grubhub-carousel-image{
         height: 50vh;
     }
 
