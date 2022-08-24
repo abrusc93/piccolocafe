@@ -7,7 +7,9 @@
 .event-container h3.year {
     font-size: 40px;
     text-align: center;
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #000000;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 5px black;
 }
   
 .event-container .event {
