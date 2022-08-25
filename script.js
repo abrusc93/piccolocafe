@@ -15,3 +15,8 @@ ScrollReveal().reveal('.reveal-slow', {
     duration: 3000,
     easing: 'ease-in'
 });
+
+ScrollReveal().reveal('.reveal-up', { 
+    delay: 200,
+    distance: '30px'
+});
