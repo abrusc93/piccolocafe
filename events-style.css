@@ -1,7 +1,16 @@
+.events-background{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 .event-container {
     font-family: "Roboto", sans-serif;
     max-width: 800px;
     margin: 0 auto;
+    height: 85vh;
+    overflow: auto;
 }
 
 .event-container h3.year {
