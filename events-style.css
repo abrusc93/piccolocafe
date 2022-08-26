@@ -51,7 +51,8 @@
 }
 
 .event .event-right a {
-    text-decoration: underline #218bbb;
+    width: fit-content;
+    text-decoration-color: #218bbb;
 }
   
 .event .event-right h3.event-title {
