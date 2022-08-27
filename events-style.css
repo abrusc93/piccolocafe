@@ -73,12 +73,13 @@
     text-transform: uppercase;
 }
   
-.event .event-right .event-timing {
+.event .event-right .event-timing,
+.event .event-right .calendar-button {
     background: #baeaff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: fit-content;
     padding: 8px;
     border-radius: 16px;
     margin: 24px 0;
@@ -89,6 +90,10 @@
 .event .event-right .event-timing img {
     height: 20px;
     padding-right: 8px;
+}
+
+.event .event-right .calendar-button {
+    color: black;
 }
   
 /* Mobile View - When screen width is less than 768px */
