@@ -15,6 +15,13 @@
     overflow: auto;
 }
 
+.bottom-blur{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    background-position: center;
+    height: 40px;
+    z-index: 1;
+}
+
 .event-container h3.year {
     font-size: 40px;
     text-align: center;
