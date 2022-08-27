@@ -1,0 +1,8 @@
+.background{
+    padding-top: 100px; 
+    background-image: url(Images/events-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}

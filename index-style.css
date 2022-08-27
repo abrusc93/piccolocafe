@@ -6,6 +6,8 @@ body {
 }
 
 nav li{
+    font-family: Times New Roman Seven Seven;
+    font-size: larger;
     padding-inline: 2vw;
 }
 
