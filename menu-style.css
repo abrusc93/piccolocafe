@@ -26,13 +26,10 @@ h1, .menu-page{
     font-size: x-large;
 }
 
-#menu-page1 .col{
-    width: 25%;
-}
-
 .menu-item-flex{
     display: flex;
     flex-direction: column;
+    margin-block: 1em;
 }
 
 .menu-item-flex h3{
