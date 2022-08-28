@@ -1,0 +1,49 @@
+.menu-background{
+    background-image: url(Images/menu-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.blur{
+    background: radial-gradient(black, transparent);
+    background-position: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+h1, .menu-page{
+    font-family: 'Caveat', cursive;
+}
+
+.menu-page{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80vw;
+    height: 80vh;
+    font-size: x-large;
+}
+
+#menu-page1 .col{
+    width: 25%;
+}
+
+.menu-item-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item-flex h3{
+    text-decoration: underline;
+}
+
+.menu-item-flex h3 span{
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 10em;
+}

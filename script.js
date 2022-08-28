@@ -20,3 +20,5 @@ ScrollReveal().reveal('.reveal-up', {
     delay: 200,
     distance: '30px'
 });
+
+$('.menu-page>*').addClass('animate__animated animate__fadeIn');

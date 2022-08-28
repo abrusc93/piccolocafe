@@ -60,31 +60,6 @@ h1, h2, h3, p{
     color: white;
 }
 
-.menu-background{
-    background-image: url(Images/menu-background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: auto;
-}
-
-#menu h1{
-    font-family: 'Caveat', cursive;
-    text-shadow: 2px 2px 5px black;
-}
-
-.blur{
-    background: radial-gradient(black, transparent);
-    background-position: center;
-    width: fit-content;
-    height: fit-content;
-}
-
-#contact{
-    height: 25vh;
-}
-
 footer{
     margin-bottom: 50pt;
 }
