@@ -29,7 +29,7 @@ h1, .menu-page{
 .menu-item-flex{
     display: flex;
     flex-direction: column;
-    margin-block: 1em;
+    margin-top: 1em;
 }
 
 .menu-item-flex h3{
@@ -41,6 +41,59 @@ h1, .menu-page{
     text-decoration: none;
 }
 
+.sugar-free-flavors li{
+    margin-inline: 1em;
+}
+
 footer{
     padding-top: 10em;
+}
+
+@media only screen and (min-width: 1040px) {
+
+    .width-50{
+        width: 50%;
+    }
+
+    .width-25{
+        width: 25%;
+    }
+
+    .margin-inline-auto{
+        margin-inline: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .menu-page{
+        width: 90vw;
+        overflow: auto;
+        padding: 1em;
+    }
+
+    .menu-page > *{
+        width: 100%;
+    }
+
+    .responsive-flex{
+        flex-direction: column;
+    }
+
+    .responsive-text-right{
+        text-align: right;
+    }
+
+    .responsive-padding-top{
+        padding-top: 1em;
+    }
+}
+
+@media (min-aspect-ratio: 3/2) {
+    
+    .menu-page{
+        overflow: auto;
+    }
+
 }
