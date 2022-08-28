@@ -20,9 +20,10 @@ h1, .menu-page{
 }
 
 .menu-page{
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 73vh;
     font-size: x-large;
 }
 
@@ -68,21 +69,11 @@ footer{
 @media only screen and (max-width: 1040px) {
 
     .menu-page{
-        width: 90vw;
-        overflow: auto;
         padding: 1em;
-    }
-
-    .menu-page > *{
-        width: 100%;
     }
 
     .responsive-flex{
         flex-direction: column;
-    }
-
-    .responsive-text-right{
-        text-align: right;
     }
 
     .responsive-padding-top{
@@ -90,10 +81,18 @@ footer{
     }
 }
 
-@media (min-aspect-ratio: 3/2) {
+@media only screen and (max-width: 768px) {
+
+    .responsive-text-right{
+        text-align: right;
+    }
+
+}
+
+@media (min-aspect-ratio: 3/1) {
     
     .menu-page{
-        overflow: auto;
+        height: 60vh;
     }
 
 }
