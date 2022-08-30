@@ -23,18 +23,18 @@ ScrollReveal().reveal('.reveal-up', {
 
 $(window).resize(function(){
     if($(window).width()<768){
-        $('.carousel').addClass('pt-5');
+        $('#home-carousel').addClass('pt-5');
     }
     if($(window).width()>768){
-        $('.carousel').removeClass('pt-5');
+        $('#home-carousel').removeClass('pt-5');
     }
 });
 
 if($(window).width()<768){
-    $('.carousel').addClass('pt-5');
+    $('#home-carousel').addClass('pt-5');
 }
 if($(window).width()>768){
-    $('.carousel').removeClass('pt-5');
+    $('#home-carousel').removeClass('pt-5');
 }
 
 $('.menu-page *').addClass('animate__animated animate__fadeIn');
