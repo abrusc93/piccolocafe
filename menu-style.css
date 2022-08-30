@@ -20,11 +20,14 @@ h1, .menu-page{
 }
 
 .menu-page{
-    overflow: auto;
+    overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.7);
     width: 90vw;
-    height: 73vh;
+    height: 75vh;
+    max-height: 613px;
     font-size: x-large;
+    padding: 1em;
+    padding-bottom: 2em;
 }
 
 .menu-item-flex{
@@ -46,8 +49,8 @@ h1, .menu-page{
     margin-inline: 1em;
 }
 
-footer{
-    padding-top: 10em;
+.underline{
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 1040px) {
@@ -64,13 +67,12 @@ footer{
         margin-inline: auto;
     }
 
+    .margin-block-auto{
+        margin-block: auto;
+    }
 }
 
 @media only screen and (max-width: 1040px) {
-
-    .menu-page{
-        padding: 1em;
-    }
 
     .responsive-flex{
         flex-direction: column;
@@ -78,6 +80,11 @@ footer{
 
     .responsive-padding-top{
         padding-top: 1em;
+    }
+
+    .indent-list{
+        width: 50%;
+        margin-inline: auto;
     }
 }
 
