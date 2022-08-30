@@ -21,4 +21,20 @@ ScrollReveal().reveal('.reveal-up', {
     distance: '30px'
 });
 
+$(window).resize(function(){
+    if($(window).width()<768){
+        $('.carousel').addClass('pt-5');
+    }
+    if($(window).width()>768){
+        $('.carousel').removeClass('pt-5');
+    }
+});
+
+if($(window).width()<768){
+    $('.carousel').addClass('pt-5');
+}
+if($(window).width()>768){
+    $('.carousel').removeClass('pt-5');
+}
+
 $('.menu-page *').addClass('animate__animated animate__fadeIn');
