@@ -11,6 +11,10 @@ nav li{
     padding-inline: 2vw;
 }
 
+nav .dropdown .dropdown-item{
+    border-radius: .375rem;
+}
+
 section{
     padding-top: 100px;
 }

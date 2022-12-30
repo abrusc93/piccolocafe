@@ -102,6 +102,18 @@
 .event .event-right .calendar-button {
     color: black;
 }
+
+.modal{
+    background-image: url(Images/events-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.modal-content{
+    background-color: rgb(60, 60, 60);
+}
   
 /* Mobile View - When screen width is less than 768px */
 @media only screen and (max-width: 768px) {
