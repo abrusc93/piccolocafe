@@ -75,9 +75,17 @@ footer{
         height: 50vh;
     }
 
-    #about {
+    #aboutContentFlex {
         flex-direction: column-reverse;
         margin-block: auto;
+    }
+
+    .responsive-flex{
+        flex-direction: column;
+    }
+
+    .instagram-media, .fb-page{
+        margin-inline: auto;
     }
 
 }
