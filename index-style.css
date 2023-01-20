@@ -68,6 +68,12 @@ footer{
     margin-bottom: 50pt;
 }
 
+@media only screen and (max-width: 1199px) {
+    #aboutSocials{
+        flex-direction: column;
+    }
+}
+
 /* Mobile View - When screen width is less than 768px */
 @media only screen and (max-width: 768px) {
 
@@ -82,10 +88,6 @@ footer{
 
     .responsive-flex{
         flex-direction: column;
-    }
-
-    .instagram-media, .fb-page{
-        margin-inline: auto;
     }
 
 }

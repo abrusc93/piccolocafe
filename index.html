@@ -83,165 +83,169 @@
   </head>
   
   <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <main>
 
-    <!-- Facebook Plugin -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="dImi8qPJ"></script>
+      <!-- Facebook Plugin -->
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="dImi8qPJ"></script>
 
-    <!-- Home Section -->
-    <section id="home">
+      <!-- Home Section -->
+      <section id="home">
 
-      <nav id="navbar" class="navbar navbar-dark navbar-expand-md bg-dark fixed-top p-0">
-        <div class="container">
-          <div class="navbar-brand p-0 m-0">
-            <a href="https://piccolocafe.vabruscato.me">
-              <img class="rounded-circle" src="Images/logo.jpeg" alt="Logo" width="100" height="auto">
-            </a>
+        <nav id="navbar" class="navbar navbar-dark navbar-expand-md bg-dark fixed-top p-0">
+          <div class="container">
+            <div class="navbar-brand p-0 m-0">
+              <a href="https://piccolocafe.vabruscato.me">
+                <img class="rounded-circle" src="Images/logo.jpeg" alt="Logo" width="100" height="auto">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-4" id="navbarToggler">
+              <ul class="navbar-nav mb-lg-0 fs-5 text-nowrap mx-auto">
+                <li class="nav-item section-link">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item section-link">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item section-link">
+                  <a class="nav-link" href="menu">Menu</a>
+                </li>
+                <li class="nav-item section-link">
+                  <a class="nav-link" href="events">Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-md-end">
+                    <li><a class="dropdown-item" href="tel:8565630009" ><i class="bi bi-telephone-fill"></i> Phone: (856) 563-0009</a></li>
+                    <li><a class="dropdown-item" href="mailto:thepiccolocafe@gmail.com" ><i class="bi bi-envelope-fill"></i> Email: thepiccolocafe@gmail.com</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.facebook.com/The-Piccolo-Cafe-1707147489579429" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                    <li><a class="dropdown-item" href="https://m.me/The-Piccolo-Cafe-1707147489579429" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                      <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                    </svg> Messenger</a></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/thepiccolocafe" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a class="dropdown-item" href="https://www.yelp.com/biz/the-piccolo-cafe-vineland" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-yelp" viewBox="0 0 16 16">
+                      <path d="m4.188 10.095.736-.17a.824.824 0 0 0 .073-.02.813.813 0 0 0 .453-1.255 1.025 1.025 0 0 0-.3-.258 2.782 2.782 0 0 0-.428-.198l-.808-.295a76.035 76.035 0 0 0-1.364-.493C2.253 7.3 2 7.208 1.783 7.14c-.041-.013-.087-.025-.124-.038a2.143 2.143 0 0 0-.606-.116.723.723 0 0 0-.572.245 1.625 1.625 0 0 0-.105.132 1.555 1.555 0 0 0-.155.309c-.15.443-.225.908-.22 1.376.002.423.013.966.246 1.334a.785.785 0 0 0 .22.24c.166.114.333.129.507.141.26.019.513-.045.764-.103l2.447-.566.003.001Zm8.219-3.911a4.185 4.185 0 0 0-.8-1.14 1.602 1.602 0 0 0-.275-.21 1.591 1.591 0 0 0-.15-.073.723.723 0 0 0-.621.031c-.142.07-.294.182-.496.37-.028.028-.063.06-.094.089-.167.156-.353.35-.574.575-.34.345-.677.691-1.01 1.042l-.598.62a2.79 2.79 0 0 0-.298.365 1 1 0 0 0-.157.364.813.813 0 0 0 .007.301c0 .005.002.009.003.013a.812.812 0 0 0 .945.616.774.774 0 0 0 .074-.014l3.185-.736c.251-.058.506-.112.732-.242.151-.088.295-.175.394-.35a.787.787 0 0 0 .093-.313c.05-.434-.178-.927-.36-1.308ZM6.706 7.523c.23-.29.23-.722.25-1.075.07-1.181.143-2.362.201-3.543.022-.448.07-.89.044-1.34-.022-.372-.025-.799-.26-1.104C6.528-.077 5.644-.033 5.04.05c-.185.025-.37.06-.553.104a7.589 7.589 0 0 0-.543.149c-.58.19-1.393.537-1.53 1.204-.078.377.106.763.249 1.107.173.417.41.792.625 1.185.57 1.036 1.15 2.066 1.728 3.097.172.308.36.697.695.857.022.01.045.018.068.025.15.057.313.068.469.032l.028-.007a.809.809 0 0 0 .377-.226.732.732 0 0 0 .053-.055Zm-.276 3.161a.737.737 0 0 0-.923-.234.976.976 0 0 0-.145.09 1.909 1.909 0 0 0-.346.354c-.026.033-.05.077-.08.104l-.512.705c-.29.395-.577.791-.861 1.193-.185.26-.346.479-.472.673l-.072.11c-.152.235-.238.406-.282.559a.73.73 0 0 0-.03.314c.013.11.05.217.108.312.031.047.064.093.1.138a1.548 1.548 0 0 0 .257.237 4.482 4.482 0 0 0 2.196.76 1.593 1.593 0 0 0 .349-.027 1.57 1.57 0 0 0 .163-.048.797.797 0 0 0 .278-.178.731.731 0 0 0 .17-.266c.059-.147.098-.335.123-.613l.012-.13c.02-.231.03-.502.045-.821.025-.49.044-.98.06-1.469l.033-.87a2.09 2.09 0 0 0-.055-.623.93.93 0 0 0-.117-.27Zm5.783 1.362a2.199 2.199 0 0 0-.498-.378l-.112-.067c-.199-.12-.438-.246-.719-.398-.43-.236-.86-.466-1.295-.695l-.767-.407c-.04-.012-.08-.04-.118-.059a1.908 1.908 0 0 0-.466-.166.993.993 0 0 0-.17-.018.738.738 0 0 0-.725.616.946.946 0 0 0 .01.293c.038.204.13.406.224.583l.41.768c.228.434.459.864.696 1.294.152.28.28.52.398.719.023.037.048.077.068.112.145.239.261.39.379.497a.73.73 0 0 0 .596.201 1.55 1.55 0 0 0 .168-.029 1.584 1.584 0 0 0 .325-.129 4.06 4.06 0 0 0 .855-.64c.306-.3.577-.63.788-1.006.03-.053.055-.109.076-.165a1.58 1.58 0 0 0 .051-.161c.013-.056.022-.111.029-.168a.792.792 0 0 0-.038-.327.73.73 0 0 0-.165-.27Z"/>
+                    </svg> Yelp</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mt-4" id="navbarToggler">
-            <ul class="navbar-nav mb-lg-0 fs-5 text-nowrap mx-auto">
-              <li class="nav-item section-link">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item section-link">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item section-link">
-                <a class="nav-link" href="menu">Menu</a>
-              </li>
-              <li class="nav-item section-link">
-                <a class="nav-link" href="events">Events</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contact
-                </a>
-                <ul class="dropdown-menu dropdown-menu-md-end">
-                  <li><a class="dropdown-item" href="tel:8565630009" ><i class="bi bi-telephone-fill"></i> Phone: (856) 563-0009</a></li>
-                  <li><a class="dropdown-item" href="mailto:thepiccolocafe@gmail.com" ><i class="bi bi-envelope-fill"></i> Email: thepiccolocafe@gmail.com</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://www.facebook.com/The-Piccolo-Cafe-1707147489579429" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
-                  <li><a class="dropdown-item" href="https://m.me/The-Piccolo-Cafe-1707147489579429" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
-                    <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
-                  </svg> Messenger</a></li>
-                  <li><a class="dropdown-item" href="https://www.instagram.com/thepiccolocafe" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
-                  <li><a class="dropdown-item" href="https://www.yelp.com/biz/the-piccolo-cafe-vineland" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-yelp" viewBox="0 0 16 16">
-                    <path d="m4.188 10.095.736-.17a.824.824 0 0 0 .073-.02.813.813 0 0 0 .453-1.255 1.025 1.025 0 0 0-.3-.258 2.782 2.782 0 0 0-.428-.198l-.808-.295a76.035 76.035 0 0 0-1.364-.493C2.253 7.3 2 7.208 1.783 7.14c-.041-.013-.087-.025-.124-.038a2.143 2.143 0 0 0-.606-.116.723.723 0 0 0-.572.245 1.625 1.625 0 0 0-.105.132 1.555 1.555 0 0 0-.155.309c-.15.443-.225.908-.22 1.376.002.423.013.966.246 1.334a.785.785 0 0 0 .22.24c.166.114.333.129.507.141.26.019.513-.045.764-.103l2.447-.566.003.001Zm8.219-3.911a4.185 4.185 0 0 0-.8-1.14 1.602 1.602 0 0 0-.275-.21 1.591 1.591 0 0 0-.15-.073.723.723 0 0 0-.621.031c-.142.07-.294.182-.496.37-.028.028-.063.06-.094.089-.167.156-.353.35-.574.575-.34.345-.677.691-1.01 1.042l-.598.62a2.79 2.79 0 0 0-.298.365 1 1 0 0 0-.157.364.813.813 0 0 0 .007.301c0 .005.002.009.003.013a.812.812 0 0 0 .945.616.774.774 0 0 0 .074-.014l3.185-.736c.251-.058.506-.112.732-.242.151-.088.295-.175.394-.35a.787.787 0 0 0 .093-.313c.05-.434-.178-.927-.36-1.308ZM6.706 7.523c.23-.29.23-.722.25-1.075.07-1.181.143-2.362.201-3.543.022-.448.07-.89.044-1.34-.022-.372-.025-.799-.26-1.104C6.528-.077 5.644-.033 5.04.05c-.185.025-.37.06-.553.104a7.589 7.589 0 0 0-.543.149c-.58.19-1.393.537-1.53 1.204-.078.377.106.763.249 1.107.173.417.41.792.625 1.185.57 1.036 1.15 2.066 1.728 3.097.172.308.36.697.695.857.022.01.045.018.068.025.15.057.313.068.469.032l.028-.007a.809.809 0 0 0 .377-.226.732.732 0 0 0 .053-.055Zm-.276 3.161a.737.737 0 0 0-.923-.234.976.976 0 0 0-.145.09 1.909 1.909 0 0 0-.346.354c-.026.033-.05.077-.08.104l-.512.705c-.29.395-.577.791-.861 1.193-.185.26-.346.479-.472.673l-.072.11c-.152.235-.238.406-.282.559a.73.73 0 0 0-.03.314c.013.11.05.217.108.312.031.047.064.093.1.138a1.548 1.548 0 0 0 .257.237 4.482 4.482 0 0 0 2.196.76 1.593 1.593 0 0 0 .349-.027 1.57 1.57 0 0 0 .163-.048.797.797 0 0 0 .278-.178.731.731 0 0 0 .17-.266c.059-.147.098-.335.123-.613l.012-.13c.02-.231.03-.502.045-.821.025-.49.044-.98.06-1.469l.033-.87a2.09 2.09 0 0 0-.055-.623.93.93 0 0 0-.117-.27Zm5.783 1.362a2.199 2.199 0 0 0-.498-.378l-.112-.067c-.199-.12-.438-.246-.719-.398-.43-.236-.86-.466-1.295-.695l-.767-.407c-.04-.012-.08-.04-.118-.059a1.908 1.908 0 0 0-.466-.166.993.993 0 0 0-.17-.018.738.738 0 0 0-.725.616.946.946 0 0 0 .01.293c.038.204.13.406.224.583l.41.768c.228.434.459.864.696 1.294.152.28.28.52.398.719.023.037.048.077.068.112.145.239.261.39.379.497a.73.73 0 0 0 .596.201 1.55 1.55 0 0 0 .168-.029 1.584 1.584 0 0 0 .325-.129 4.06 4.06 0 0 0 .855-.64c.306-.3.577-.63.788-1.006.03-.053.055-.109.076-.165a1.58 1.58 0 0 0 .051-.161c.013-.056.022-.111.029-.168a.792.792 0 0 0-.038-.327.73.73 0 0 0-.165-.27Z"/>
-                  </svg> Yelp</a></li>
-                </ul>
-              </li>
-            </ul>
+        </nav>
+
+        <div class="home-background">
+
+          <div id="home-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-touch="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-img mx-auto animate__animated animate__fadeIn" style="background-image: url(Images/banner.jpg);" title="Image Credit: The Piccolo Cafe via Facebook">
+                  <div class="carousel-header mx-auto py-3 text-center">
+                    <h1 class="display-1">Piccolo Cafe</h1>
+                    <h1 class="display-5">Come In & Relax</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/chips.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
+                  <div class="carousel-header mx-auto py-3 text-center">
+                    <h1 class="display-5" style="text-shadow: none;">Guacamole/Pico de Gallo & Fresh Salted Chips</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/scone.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
+                  <div class="carousel-header mx-auto py-3 text-center">
+                    <h1 class="display-1">New Specialty!</h1>
+                    <h1 class="display-5">Strawberry and Cream Scone</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/biscotti.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
+                  <div class="carousel-header mx-auto py-3 text-center">
+                    <h1 class="display-1">New Specialty!</h1>
+                    <h1 class="display-5">Big Boss Biscotti</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="grubhub-carousel-image  mx-auto" loading="lazy">
+                  <h1 class="display-2 text-center">Piccolo Cafe is on Grubhub!</h1>
+                  <a class="btn btn-primary btn-lg position-sticky top-100 start-50 translate-middle mb-5"
+                    href="https://www.grubhub.com/restaurant/piccolo-cafe-3569-east-landis-avenue-vineland/1626918?utm_source=grubhub_iosapp&utm_medium=content_owned&utm_campaign=menushare&utm_content=share-link"
+                    target="_blank"
+                    role="button">Order Now
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
+
         </div>
-      </nav>
 
-      <div class="home-background">
+      </section>
 
-        <div id="home-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-touch="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-img mx-auto animate__animated animate__fadeIn" style="background-image: url(Images/banner.jpg);" title="Image Credit: The Piccolo Cafe via Facebook">
-                <div class="carousel-header mx-auto py-3 text-center">
-                  <h1 class="display-1">Piccolo Cafe</h1>
-                  <h1 class="display-5">Come In & Relax</h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/chips.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
-                <div class="carousel-header mx-auto py-3 text-center">
-                  <h1 class="display-5" style="text-shadow: none;">Guacamole/Pico de Gallo & Fresh Salted Chips</h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/scone.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
-                <div class="carousel-header mx-auto py-3 text-center">
-                  <h1 class="display-1">New Specialty!</h1>
-                  <h1 class="display-5">Strawberry and Cream Scone</h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-img mx-auto" loading="lazy" style="background-image: url(Images/biscotti.jpg);" title="Image Credit: The Piccolo Cafe via Instagram">
-                <div class="carousel-header mx-auto py-3 text-center">
-                  <h1 class="display-1">New Specialty!</h1>
-                  <h1 class="display-5">Big Boss Biscotti</h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="grubhub-carousel-image  mx-auto" loading="lazy">
-                <h1 class="display-2 text-center">Piccolo Cafe is on Grubhub!</h1>
-                <a class="btn btn-primary btn-lg position-sticky top-100 start-50 translate-middle mb-5"
-                  href="https://www.grubhub.com/restaurant/piccolo-cafe-3569-east-landis-avenue-vineland/1626918?utm_source=grubhub_iosapp&utm_medium=content_owned&utm_campaign=menushare&utm_content=share-link"
-                  target="_blank"
-                  role="button">Order Now
-                </a>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-
-      </div>
-
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-      <div id="aboutContentFlex" class="container d-flex justify-content-between">
-        <div class="container">
-          <img class="mb-3 d-block mx-auto" src="Images/building-front.jpg" loading="lazy" alt="Front of Piccolo Cafe" width="50%" title="Image Credit: The Piccolo Cafe via Instagram">
-          <p class="lead">
-            Piccolo Cafe was established in 2017 and was created by the DeThomasi family for the community to have a
-            relaxing place to go and unwind. Our menu includes fresh baked goodies, imported Italian gelato, paninis, 
-            salads, cappuccinos, lattes, healthy organic smoothies, and much more! We wanted to provide a menu that 
-            would be healthy and sinful at the same time, for any type of mood that you're in. 
-          </p>
-        </div>
-        <br/>
-        <div class="container">
-          
-          <br/>
-          <div>
-            <h2>Hours:</h2>
-            <h3>9am to 6pm Tuesday - Sunday</h3>
+      <!-- About Section -->
+      <section id="about">
+        <div id="aboutContentFlex" class="container d-flex justify-content-between pb-5">
+          <div class="container">
+            <img class="mb-3 d-block mx-auto" src="Images/building-front.jpg" loading="lazy" alt="Front of Piccolo Cafe" width="50%" title="Image Credit: The Piccolo Cafe via Instagram">
+            <p class="lead">
+              Piccolo Cafe was established in 2017 and was created by the DeThomasi family for the community to have a
+              relaxing place to go and unwind. Our menu includes fresh baked goodies, imported Italian gelato, paninis, 
+              salads, cappuccinos, lattes, healthy organic smoothies, and much more! We wanted to provide a menu that 
+              would be healthy and sinful at the same time, for any type of mood that you're in. 
+            </p>
           </div>
           <br/>
-          <div>
-            <h2>Address:</h2>
-            <h3>3569 E Landis Ave, Vineland, NJ 08360</h3>
+          <div class="container">
+            
+            <br/>
+            <div>
+              <h2>Hours:</h2>
+              <h3>9am to 6pm Tuesday - Sunday</h3>
+            </div>
+            <br/>
+            <div>
+              <h2>Address:</h2>
+              <h3>3569 E Landis Ave, Vineland, NJ 08360</h3>
+            </div>
+            <br/>
+            <iframe class="d-block mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4066620985204!2d-74.9612977845554!3d39.48273107948465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0cdc57f263785%3A0x747f4715624f81bd!2sThe%20Piccolo%20Cafe!5e0!3m2!1sen!2sus!4v1661112861047!5m2!1sen!2sus" 
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
-          <br/>
-          <iframe class="d-block mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4066620985204!2d-74.9612977845554!3d39.48273107948465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0cdc57f263785%3A0x747f4715624f81bd!2sThe%20Piccolo%20Cafe!5e0!3m2!1sen!2sus!4v1661112861047!5m2!1sen!2sus" 
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
         </div>
-      </div>
-      <div class="mt-5 container responsive-flex d-flex justify-content-between">
-        <blockquote class="instagram-media d-block" data-instgrm-permalink="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this profile on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">The Piccolo Cafe</a> (@<a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">thepiccolocafe</a>) • Instagram photos and videos</p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100054489217935" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100054489217935" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100054489217935">The Piccolo Cafe</a></blockquote></div>
-      </div>
-    </section>
+        <div id="aboutSocials" class="mt-5 container mx-auto d-flex justify-content-between">
+          <blockquote class="instagram-media container my-0 mx-auto p-0" data-instgrm-permalink="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this profile on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">The Piccolo Cafe</a> (@<a href="https://www.instagram.com/thepiccolocafe/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">thepiccolocafe</a>) • Instagram photos and videos</p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+          <br/>
+          <br/>
+          <div class="fb-page container my-0 mx-auto p-0" data-href="https://www.facebook.com/profile.php?id=100054489217935" data-tabs="timeline" data-width="540" data-height="558" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-lazy="true" style="max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><blockquote cite="https://www.facebook.com/profile.php?id=100054489217935" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100054489217935">The Piccolo Cafe</a></blockquote></div>
+        </div>
+      </section>
+    </main>
 
     <footer class="container mt-5 mb-0 text-center text-white">
       <p>Follow Us:</p>
