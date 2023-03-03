@@ -15,6 +15,10 @@ nav .dropdown .dropdown-item{
     border-radius: .375rem;
 }
 
+nav .dropdown-menu a:hover{
+    background-color: lightgray;
+}
+
 section{
     padding-top: 100px;
 }
